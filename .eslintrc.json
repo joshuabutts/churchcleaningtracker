@@ -14,6 +14,17 @@
         "argsIgnorePattern": "^_"
       }
     ],
-    "no-unused-labels": "off"
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": true,
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-unused-labels": "off",
+    "@next/next/no-img-element": "warn" // Change to "off" if you want to disable the warning
   }
 }

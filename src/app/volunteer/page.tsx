@@ -32,9 +32,9 @@ const SuppliesPage: React.FC = () => {
 
                             {item.events.map((event) => {
                                 return (
-                                    <Link href={`volunteer/${item.uuid}`}>
-                                        <li key={event.id}>
-                                            <div className="px-4 py-4 sm:px-6 transition-colors hover:bg-gray-100">
+                                    <Link href={`volunteer/${item.uuid}`} key={event.id}>
+                                        <li>
+                                            <div className="px-4 py-4 sm:px-6 transition-colors hover:bg-blue-50">
                                                 <div className="flex items-center justify-between">
                                                     <h3 className={`text-lg font-medium text-gray-900`}>{event.date}</h3>
                                                     <h4 className={`text-lg font-bold ${clsx(item.mymonth ? 'text-green-600' : 'text-gray-900')}`}>{item.ward}</h4>

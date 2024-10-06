@@ -1,4 +1,5 @@
 'use client'
+// import Image from 'next/image';
 import { useState } from 'react'
 import clsx from 'clsx';
 
@@ -41,6 +42,12 @@ const supplyItems: SupplyItem[] = [
 const SuppliesPage: React.FC = () => {
     const [quantities, setQuantities] = useState<{ [key: number]: number }>({});
 
+    // const updateQuantity = (id: number, delta: number) => {
+    //     setQuantities(prev => ({
+    //         ...prev,
+    //         [id]: Math.max(0, (prev[id] || supplyItems.find(item => item.id === id)?.defaultQuantity || 0) + delta)
+    //     }));
+    // };
 
     const submitOrder = (id: number) => {
         // TODO: Implement order submission logic

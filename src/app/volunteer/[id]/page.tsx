@@ -1,11 +1,9 @@
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
-import Link from "next/link";
+// import Link from "next/link";
 import { getPageData } from "@/components/lib/data";
 
 export default function VolunteerPage({ params }: { params: { uuid: string } }) {
-    const pageid: string = params.uuid
 
-    const pageData: object = async () => { getPageData() };
     return (
         <>
             <Breadcrumbs href="/volunteer" parent="All Assignments" currentPage="Saturday, Jan 14" />

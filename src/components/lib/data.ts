@@ -56,9 +56,215 @@ export const upcomingEvents = [
     }
 ];
 export function getPageData() {
-    return dateData
+    return assignments
 }
-const dateData = {
-    date: 'jan 34'
+const assignments = [
+    {
+        "category": "Chapel",
+        "assignments": [
+            {
+                "title": "Vacuum chapel floor",
+                "description": "Vacuum the floor of the chapel as needed.",
+                "required": false
+            },
+            {
+                "title": "Vacuum chapel seats",
+                "description": "Vacuum the seats in the chapel regularly.",
+                "required": true
+            },
+            {
+                "title": "Clean sacrament room",
+                "description": "Thoroughly clean the sacrament room as required.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "category": "Bathrooms",
+        "assignments": [
+            {
+                "title": "Mirrors",
+                "description": "Clean all mirrors in the bathrooms regularly.",
+                "required": true
+            },
+            {
+                "title": "Sinks",
+                "description": "Clean and sanitize all sinks in the bathrooms.",
+                "required": true
+            },
+            {
+                "title": "Toilets & Urinals",
+                "description": "Clean and disinfect toilets and urinals.",
+                "required": true
+            },
+            {
+                "title": "Sweep & Mop floors",
+                "description": "Sweep and mop the bathroom floors regularly.",
+                "required": true
+            },
+            {
+                "title": "Refill empty paper towel dispensers",
+                "description": "Ensure paper towel dispensers are filled.",
+                "required": true
+            },
+            {
+                "title": "Refill toilet paper",
+                "description": "Check and refill toilet paper supplies.",
+                "required": true
+            },
+            {
+                "title": "Refill Soap dispensers",
+                "description": "Refill soap dispensers as needed.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "category": "Vacuum",
+        "assignments": [
+            {
+                "title": "North hallway",
+                "description": "Vacuum the north hallway regularly.",
+                "required": true
+            },
+            {
+                "title": "East hallway",
+                "description": "Vacuum the east hallway regularly.",
+                "required": true
+            },
+            {
+                "title": "South hallway",
+                "description": "Vacuum the south hallway regularly.",
+                "required": true
+            },
+            {
+                "title": "West hallway",
+                "description": "Vacuum the west hallway regularly.",
+                "required": true
+            },
+            {
+                "title": "North classrooms",
+                "description": "Vacuum the north classrooms regularly.",
+                "required": true
+            },
+            {
+                "title": "East classrooms",
+                "description": "Vacuum the east classrooms regularly.",
+                "required": true
+            },
+            {
+                "title": "West classrooms",
+                "description": "Vacuum the west classrooms regularly.",
+                "required": true
+            },
+            {
+                "title": "South classrooms",
+                "description": "Vacuum the south classrooms regularly.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "category": "Garbages",
+        "assignments": [
+            {
+                "title": "Take out Garbages and replace liners",
+                "description": "Empty garbage bins and replace liners as needed.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "category": "Kitchen",
+        "assignments": [
+            {
+                "title": "Clean Sink, Stove, Microwave & Fridge",
+                "description": "Clean kitchen appliances as needed.",
+                "required": false
+            },
+            {
+                "title": "Clean Countertops",
+                "description": "Wipe down and sanitize kitchen countertops.",
+                "required": true
+            },
+            {
+                "title": "Sweep & Mop Floor",
+                "description": "Sweep and mop the kitchen floor regularly.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "category": "Cultural Hall",
+        "assignments": [
+            {
+                "title": "Dust and mop floors",
+                "description": "Dust and mop the floors as needed.",
+                "required": false
+            },
+            {
+                "title": "Clean stage",
+                "description": "Clean the stage area thoroughly.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "category": "Windows",
+        "assignments": [
+            {
+                "title": "North doorway",
+                "description": "Clean the windows at the north doorway.",
+                "required": true
+            },
+            {
+                "title": "South doorway",
+                "description": "Clean the windows at the south doorway.",
+                "required": true
+            },
+            {
+                "title": "East Doorway",
+                "description": "Clean the windows at the east doorway.",
+                "required": true
+            },
+            {
+                "title": "West doorway",
+                "description": "Clean the windows at the west doorway.",
+                "required": true
+            },
+            {
+                "title": "Classroom door windows",
+                "description": "Clean the windows of classroom doors as needed.",
+                "required": false
+            }
+        ]
+    },
+    {
+        "category": "Other",
+        "assignments": [
+            {
+                "title": "Clean Door Knobs & Door Push Plates",
+                "description": "Sanitize door knobs and push plates as needed.",
+                "required": false
+            },
+            {
+                "title": "Clean drinking fountains",
+                "description": "Clean and sanitize drinking fountains as needed.",
+                "required": false
+            },
+            {
+                "title": "Chalkboards",
+                "description": "Clean chalkboards with a Finney eraser and dry cloths, do not use water.",
+                "required": false
+            },
+            {
+                "title": "Sweep Entryway Exteriors",
+                "description": "Sweep the exterior entryways as needed.",
+                "required": false
+            }
+        ]
+    }
+]
 
-}
+
+
